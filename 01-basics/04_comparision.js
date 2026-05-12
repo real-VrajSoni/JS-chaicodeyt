@@ -9,3 +9,14 @@
 console.log("2" > 1);
 
 // clean code is most valueable 
+
+
+// ******************** typeOf datatypes ************
+
+// null => object
+// number => number
+// string => string
+// array => object
+// undefined => undefined
+// boolean => boolean
+// symbol => symbol

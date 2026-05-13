@@ -11,7 +11,7 @@ console.log("2" > 1);
 // clean code is most valueable 
 
 
-// ******************** typeOf datatypes ************
+// ******************** typeof datatypes ************
 
 // null => object
 // number => number

@@ -21,5 +21,5 @@ const slicedArr = newArr.slice(1,3)
 // console.log(slicedArr);
 
 const splicedArr = newArr.splice(0,2, "d", "e")
-console.log(slicedArr);
-console.log(newArr);
+// console.log(slicedArr);
+// console.log(newArr);

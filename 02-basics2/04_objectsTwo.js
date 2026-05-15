@@ -42,7 +42,20 @@ const users = [
 
 // console.log(users[1].email);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+//********************** object destructor **************** */
+
+const course = {
+    courseName : "app development",
+    price : 999,
+    courseInstructor : "Hitesh",
+}
+
+const {courseInstructor : teacher} = course
+console.log(teacher);

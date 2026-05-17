@@ -11,3 +11,32 @@ if (true) {
 // console.log(c);
 
 // do not use VAR for decalaring variables
+
+
+
+function one(){
+    const username = "hitesh"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+        
+    }
+    // console.log(website);
+    two()
+}
+// one()
+
+
+
+
+addOne(5)
+function addOne(num){
+    return num + 1
+}
+
+
+const addTwo = function(num){
+    return num + 1
+}
+addTwo(5)

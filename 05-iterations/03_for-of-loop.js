@@ -41,8 +41,20 @@ map.set('UK', "United Kingdom")
 
 // console.log(map);
 
-for (const [key,value] of map) {
-    console.log(key);
-    console.log(value);
+// for (const [key,value] of map) {
+//     console.log(key);
+//     console.log(value);
     
+// }
+
+
+
+const myObject = {
+    game1 : 'gtaV',
+    game2 : 'Spiderman'
 }
+
+// for (const [key,value] of myObject) {
+//     console.log( key, ':-', value);
+    
+// }.  DOES NOT WORK IN OBJECTS
